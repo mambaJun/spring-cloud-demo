@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "jun",
+      "type": "com.jun.demo.propertie.OrderProerties",
+      "sourceType": "com.jun.demo.propertie.OrderProerties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jun.item-properties",
+      "type": "com.jun.demo.propertie.ItemProperties",
+      "sourceType": "com.jun.demo.propertie.OrderProerties"
+    }
+  ],
+  "hints": []
+}

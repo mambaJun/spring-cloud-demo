@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+jun:
+  item:
+    url: http://127.0.0.1:8081/item/
+
+spring:
+  application:
+    # 指定服务名
+    name: jun-microservice-order
+
+eureka:
+  client:
+    # 是否将自己注册到 Eureka 服务中，默认为true
+    register-with-eureka: false
+    # 是否从 Eureka 中 获取注册信息，默认为 true
+    fetch-registry: true
+    # Eureka客户端与 Eureka服务器进行交互的地址
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+#      defaultZone: http://jun:jun123@127.0.0.1:6868/eureka/
